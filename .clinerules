@@ -1,0 +1,132 @@
+# MCP Store Project Rules
+
+## Project Patterns
+
+### Code Organization
+- Use feature-based folder structure
+- Keep components small and focused
+- Implement lazy loading for routes
+- Use TypeScript for all new files
+- Follow React hooks pattern
+
+### Naming Conventions
+- Components: PascalCase
+- Files: kebab-case
+- Functions: camelCase
+- Constants: UPPER_SNAKE_CASE
+- Types/Interfaces: PascalCase with prefix I for interfaces
+
+### Component Structure
+```typescript
+// Component template
+import React from 'react';
+import styles from './ComponentName.module.css';
+
+interface IComponentNameProps {
+  // props
+}
+
+export const ComponentName: React.FC<IComponentNameProps> = (props) => {
+  // implementation
+};
+```
+
+### File Organization
+```
+feature/
+  ├── components/     # Feature-specific components
+  ├── hooks/         # Custom hooks
+  ├── types/         # TypeScript types
+  ├── utils/         # Helper functions
+  └── index.ts       # Public API
+```
+
+### State Management
+- Use React Context for global state
+- Keep state close to where it's used
+- Implement proper loading states
+- Handle errors gracefully
+
+### Styling
+- Use TailwindCSS for styling
+- Follow mobile-first approach
+- Maintain consistent spacing
+- Use design tokens for colors
+
+### Testing
+- Write tests alongside components
+- Focus on user interactions
+- Mock external dependencies
+- Use React Testing Library
+
+## Project Preferences
+
+### Development
+- Use Vite.js dev server
+- Enable HMR
+- Maintain clean console
+- Follow ESLint rules
+
+### Documentation
+- Document complex logic
+- Add JSDoc for public APIs
+- Keep README updated
+- Document state management
+
+### Git Workflow
+- Use feature branches
+- Write descriptive commits
+- Follow conventional commits
+- Keep PRs focused
+
+### Performance
+- Implement code splitting
+- Optimize images
+- Monitor bundle size
+- Cache appropriately
+
+## Learning Points
+
+### Key Insights
+1. Supabase integration is central
+2. Web3 features are optional
+3. Focus on user experience
+4. Maintain scalability
+
+### Challenges
+1. Authentication complexity
+2. Real-time updates
+3. Search performance
+4. Mobile responsiveness
+
+### Solutions
+1. Implement proper error boundaries
+2. Use optimistic updates
+3. Implement proper caching
+4. Follow responsive design patterns
+
+## Tool Usage Patterns
+
+### Vite
+- Use for development
+- Enable HMR
+- Configure aliases
+- Optimize builds
+
+### Supabase
+- Handle authentication
+- Manage database
+- Store assets
+- Enable real-time
+
+### TailwindCSS
+- Use utility classes
+- Maintain consistency
+- Follow design system
+- Enable purging
+
+### TypeScript
+- Enable strict mode
+- Use proper types
+- Avoid any
+- Document interfaces

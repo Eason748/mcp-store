@@ -1,0 +1,164 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "reload": "Reload",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "status": "Status",
+    "active": "Active",
+    "version": "Version",
+    "rating": "Rating",
+    "users": "Users",
+    "lastUpdated": "Last Updated",
+    "showingResults": "Showing {{count}} MCP Services",
+    "sortBy": "Sort By",
+    "all": "All",
+    "filter": "Filter",
+    "search": "Search",
+    "viewAll": "View All",
+    "viewMode": {
+      "grid": "Grid View",
+      "list": "List View"
+    }
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "signUp": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "createAccount": "Create Account",
+    "resetPassword": "Reset Password",
+    "sendResetLink": "Send Reset Link",
+    "forgotPassword": "Forgot password?",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "rememberPassword": "Remember your password?",
+    "continueWith": "Or continue with",
+    "accountCreated": "Account Created!",
+    "checkEmail": "Please check your email for a verification link to complete your registration.",
+    "close": "Close",
+    "errors": {
+      "emailRequired": "Email is required",
+      "passwordRequired": "Password is required",
+      "passwordLength": "Password must be at least 6 characters",
+      "passwordsNotMatch": "Passwords do not match",
+      "resetLinkSent": "Password reset link sent to your email",
+      "genericError": "An error occurred"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "servers": "MCP Services",
+    "profile": "Profile",
+    "addServer": "Register MCP Service"
+  },
+  "home": {
+    "welcome": "Welcome to MCP Store",
+    "subtitle": "Discover and integrate MCP services to enhance your AI applications.",
+    "browse": "Browse our collection of MCP services or register your own.",
+    "discover": {
+      "title": "Discover",
+      "description": "Find MCP services that enhance your AI applications with new capabilities"
+    },
+    "integrate": {
+      "title": "Integrate",
+      "description": "Easily connect MCP services to your applications with our simple API"
+    },
+    "contribute": {
+      "title": "Contribute",
+      "description": "Register your own MCP services and share them with the community"
+    },
+    "featuredServers": "Featured MCP Services"
+  },
+  "dashboard": {
+    "statistics": "MCP STATISTICS",
+    "mcpServices": "MCP Services",
+    "apiCalls": "API Calls",
+    "lastActive": "Last Active",
+    "contribution": {
+      "title": "Contribution",
+      "description": "Share your own MCP services with the community"
+    }
+  },
+  "servers": {
+    "title": "MCP Services",
+    "description": "Discover and integrate powerful MCP services into your applications",
+    "searchPlaceholder": "Search by name, description, or tags...",
+    "add": "Register MCP Service",
+    "edit": "Edit MCP Service",
+    "name": "Service Name",
+    "description": "Description",
+    "activate": "Activate Service",
+    "deactivate": "Deactivate Service",
+    "status": "Status",
+    "statusTypes": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "deprecated": "Deprecated"
+    },
+    "noServers": "No MCP services found",
+    "noServersDesc": "Try adjusting your search or filter criteria",
+    "metrics": {
+      "rating": "Rating",
+      "users": "Users",
+      "lastUpdated": "Last Updated",
+      "version": "Version"
+    },
+    "filters": {
+      "allStatus": "All Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "deprecated": "Deprecated",
+      "sortBy": {
+        "rating": "Sort by Rating",
+        "users": "Sort by Users",
+        "created": "Sort by Creation Date",
+        "updated": "Sort by Update Date"
+      }
+    },
+    "details": {
+      "overview": "Overview",
+      "tools": "Tools",
+      "resources": "Resources",
+      "settings": "Settings",
+      "documentation": "Documentation"
+    },
+    "tester": {
+      "title": "MCP Tester",
+      "description": "Test your MCP service functionality here to ensure it works as expected",
+      "input": "Test Input",
+      "inputPlaceholder": "Enter test content...",
+      "test": "Test",
+      "testing": "Testing...",
+      "success": "Test Successful",
+      "error": "Test Failed",
+      "duration": "Response Time: {{duration}}ms"
+    }
+  },
+  "footer": {
+    "description": "Discover and integrate powerful MCP services, a community-driven open source project.",
+    "copyright": " {{year}} MCP Store. Open source project under MIT License.",
+    "builtWith": "Built with",
+    "sections": {
+      "resources": {
+        "title": "Resources",
+        "documentation": "Documentation",
+        "guides": "Guides",
+        "apiReference": "API Reference"
+      },
+      "community": {
+        "title": "Community",
+        "github": "GitHub",
+        "discord": "Discord",
+        "twitter": "Twitter"
+      }
+    }
+  }
+}

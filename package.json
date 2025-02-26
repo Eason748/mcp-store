@@ -1,0 +1,45 @@
+{
+  "name": "mcp-store",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.x",
+    "@uiw/react-md-editor": "^4.0.5",
+    "@web3-react/core": "^8.x",
+    "@web3-react/injected-connector": "^6.x",
+    "i18next": "^24.2.2",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^15.4.1",
+    "react-markdown": "^10.0.0",
+    "react-router-dom": "^6.x"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/react-router-dom": "^5.x",
+    "@typescript-eslint/eslint-plugin": "^6.x",
+    "@typescript-eslint/parser": "^6.x",
+    "@vitejs/plugin-react": "^4.x",
+    "autoprefixer": "^10.x",
+    "eslint": "^8.x",
+    "eslint-plugin-react-hooks": "^4.x",
+    "eslint-plugin-react-refresh": "^0.4.x",
+    "postcss": "^8.x",
+    "tailwindcss": "^3.x",
+    "typescript": "^5.x",
+    "vite": "^4.x",
+    "vitest": "^0.34.x"
+  }
+}

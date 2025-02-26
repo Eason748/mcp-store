@@ -1,0 +1,161 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "reload": "重新加载",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "submit": "提交",
+    "submitting": "提交中...",
+    "status": "状态",
+    "active": "活跃",
+    "version": "版本",
+    "rating": "评分",
+    "users": "用户",
+    "lastUpdated": "最后更新",
+    "showingResults": "显示 {{count}} 个MCP服务",
+    "sortBy": "排序方式",
+    "all": "全部",
+    "filter": "筛选",
+    "search": "搜索",
+    "viewAll": "查看全部",
+    "viewMode": {
+      "grid": "网格视图",
+      "list": "列表视图"
+    }
+  },
+  "dashboard": {
+    "statistics": "MCP 统计",
+    "mcpServices": "MCP 服务",
+    "apiCalls": "API 调用",
+    "lastActive": "最后活跃",
+    "contribution": {
+      "title": "贡献",
+      "description": "自己的 MCP 服务并与社区分享"
+    }
+  },
+  "servers": {
+    "title": "MCP 服务",
+    "description": "发现并集成强大的 MCP 服务到您的应用中",
+    "searchPlaceholder": "按名称、描述或标签搜索服务...",
+    "add": "注册MCP服务",
+    "edit": "编辑MCP服务",
+    "name": "服务名称",
+    "description": "描述",
+    "activate": "启用服务",
+    "deactivate": "停用服务",
+    "status": "状态",
+    "statusTypes": {
+      "active": "运行中",
+      "inactive": "已停用",
+      "deprecated": "已弃用"
+    },
+    "noServers": "未找到MCP服务",
+    "noServersDesc": "请尝试调整搜索或筛选条件",
+    "metrics": {
+      "rating": "评分",
+      "users": "用户",
+      "lastUpdated": "最后更新",
+      "version": "版本"
+    },
+    "filters": {
+      "allStatus": "所有状态",
+      "sortBy": {
+        "rating": "按评分排序",
+        "users": "按用户数排序",
+        "created": "按创建日期排序",
+        "updated": "按更新日期排序"
+      }
+    },
+    "details": {
+      "overview": "概览",
+      "tools": "工具",
+      "resources": "资源",
+      "settings": "设置",
+      "documentation": "文档"
+    },
+    "tester": {
+      "title": "MCP 测试工具",
+      "description": "在这里测试 MCP 服务的功能，确保它能按预期工作",
+      "input": "测试输入",
+      "inputPlaceholder": "输入要测试的内容...",
+      "test": "测试",
+      "testing": "测试中...",
+      "success": "测试成功",
+      "error": "测试失败",
+      "duration": "响应时间: {{duration}}ms"
+    }
+  },
+  "auth": {
+    "signIn": "登录",
+    "signOut": "退出",
+    "signUp": "注册",
+    "email": "邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "createAccount": "创建账号",
+    "resetPassword": "重置密码",
+    "sendResetLink": "发送重置链接",
+    "forgotPassword": "忘记密码？",
+    "dontHaveAccount": "还没有账号？",
+    "alreadyHaveAccount": "已有账号？",
+    "rememberPassword": "记住密码？",
+    "continueWith": "或继续使用",
+    "accountCreated": "账号已创建！",
+    "checkEmail": "请检查您的邮箱以完成注册验证。",
+    "close": "关闭",
+    "errors": {
+      "emailRequired": "请输入邮箱",
+      "passwordRequired": "请输入密码",
+      "passwordLength": "密码至少需要6个字符",
+      "passwordsNotMatch": "两次输入的密码不一致",
+      "resetLinkSent": "密码重置链接已发送到您的邮箱",
+      "genericError": "发生错误"
+    }
+  },
+  "nav": {
+    "home": "首页",
+    "servers": "MCP服务",
+    "profile": "个人资料",
+    "addServer": "注册MCP服务"
+  },
+  "home": {
+    "welcome": "欢迎使用 MCP Store",
+    "subtitle": "发现并集成 MCP 服务以增强您的 AI 应用。",
+    "browse": "浏览我们的MCP服务集合或注册您自己的MCP服务。",
+    "discover": {
+      "title": "发现",
+      "description": "寻找能增强您的 AI 应用的 MCP 服务"
+    },
+    "integrate": {
+      "title": "集成",
+      "description": "通过我们简单的 API 轻松连接 MCP 服务"
+    },
+    "contribute": {
+      "title": "贡献",
+      "description": "注册您自己的 MCP 服务并与社区分享"
+    },
+    "featuredServers": "精选MCP服务"
+  },
+  "footer": {
+    "description": "发现并集成强大的 MCP 服务，一个由社区驱动的开源项目。",
+    "copyright": "© {{year}} MCP Store. 开源项目，遵循 MIT 协议。",
+    "builtWith": "用",
+    "sections": {
+      "resources": {
+        "title": "资源",
+        "documentation": "文档",
+        "guides": "指南",
+        "apiReference": "API 参考"
+      },
+      "community": {
+        "title": "社区",
+        "github": "GitHub",
+        "discord": "Discord",
+        "twitter": "Twitter"
+      }
+    }
+  }
+}
