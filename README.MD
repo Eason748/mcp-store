@@ -4,6 +4,8 @@
 
 MCP Store is a React + TypeScript application for managing Model Context Protocol (MCP) servers. It provides a platform for users to register, discover, and manage MCP servers with features like authentication, reviews, and bookmarks.
 
+![MCP Store Screenshot](mcp-store.png)
+
 ## Features
 
 - 🔐 Authentication with multiple providers (Google, GitHub, Email)
@@ -128,11 +130,6 @@ Create a `.env` file in the root directory with the following variables:
 VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
-# OAuth Providers
-VITE_GOOGLE_CLIENT_ID=your_google_client_id
-VITE_GITHUB_CLIENT_ID=your_github_client_id
-VITE_GITHUB_CLIENT_SECRET=your_github_client_secret  # Development only
-
 # API Configuration
 VITE_API_URL=http://localhost:3000
 VITE_ENV=development
@@ -175,5 +172,4 @@ Each table has appropriate Row Level Security (RLS) policies configured for data
 
 ## License
 
-[Add your license information here]
-# mcp-store
+MCP Store is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

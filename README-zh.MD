@@ -2,6 +2,8 @@
 
 MCP Store 是一个基于 React + TypeScript 的应用程序，用于管理模型上下文协议（Model Context Protocol，MCP）服务器。该平台允许用户注册、发现和管理 MCP 服务器，并提供身份验证、评论和收藏等功能。
 
+![MCP Store 截图](mcp-store.png)
+
 ## 功能特性
 
 - 🔐 多种登录方式（Google、GitHub、邮箱）
@@ -126,11 +128,6 @@ mcp-store/
 VITE_SUPABASE_URL=你的_supabase_项目_url
 VITE_SUPABASE_ANON_KEY=你的_supabase_匿名密钥
 
-# OAuth 提供商
-VITE_GOOGLE_CLIENT_ID=你的_google_客户端_id
-VITE_GITHUB_CLIENT_ID=你的_github_客户端_id
-VITE_GITHUB_CLIENT_SECRET=你的_github_客户端密钥  # 仅开发环境
-
 # API 配置
 VITE_API_URL=http://localhost:3000
 VITE_ENV=development
@@ -162,7 +159,7 @@ VITE_ENABLE_ANALYTICS=false
 
 ### 🚀 计划功能
 - ⭐ 服务器评分和评论系统
-- 🔖 收藏喜欢的服务器
+- �� 收藏喜欢的服务器
 - 🎮 在线 MCP 测试环境 - 交互式 MCP 服务器测试平台
 - 🤖 MCP 个性化定制 - 通过与 LLM 的自然语言对话生成并注册 MCP 工具
 - 🔄 MCP 智能代理 - 使用 MCP 工具完成智能任务的 AI 代理
@@ -170,3 +167,8 @@ VITE_ENABLE_ANALYTICS=false
   - 定期购买生活用品
   - 更多智能任务自动化
 - 📝 更多功能开发中...
+
+
+## 许可证
+
+MCP Store 使用 MIT 许可证。详细信息请查看 [LICENSE](LICENSE) 文件。
